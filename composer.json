@@ -2,8 +2,12 @@
     "name":        "smaex/additional-payment-checks",
     "description": "Enables additional checks for payment methods in Magento 2.",
     "type":        "magento2-module",
+    "version":     "1.1.1",
     "license":     "MIT",
-    "version":     "1.1.0",
+    "keywords":
+    [
+        "magento", "payment"
+    ],
     "require":
     {
         "php":                    "^7.1",

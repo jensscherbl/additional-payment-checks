@@ -1,12 +1,12 @@
 <?php
-namespace Smaex\AdditionalPaymentChecks\Plugin\Payment\Model\Checks\SpecificationFactory;
+namespace Smaex\AdditionalPaymentChecks\Plugin;
 
 use Magento\Payment\Model\Checks\SpecificationFactory;
 
 /**
- * Adds additional checks to payment methods.
+ * Whitelists additional payment checks when creating a new composite check.
  */
-class AdditionalChecks
+class WhitelistAdditionalChecks
 {
     /**
      * @var array

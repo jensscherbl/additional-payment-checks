@@ -1,14 +1,14 @@
 <?php
-namespace Smaex\AdditionalPaymentChecks\Test\Unit\Plugin\Payment\Model\Checks\SpecificationFactory;
+namespace Smaex\AdditionalPaymentChecks\Test\Unit\Plugin;
 
 use Magento\Payment\Model\Checks\SpecificationFactory;
 use PHPUnit\Framework\MockObject\MockObject;
-use Smaex\AdditionalPaymentChecks\Plugin\Payment\Model\Checks\SpecificationFactory\AdditionalChecks;
+use Smaex\AdditionalPaymentChecks\Plugin\WhitelistAdditionalChecks;
 
 /**
- * @covers \Smaex\AdditionalPaymentChecks\Plugin\Payment\Model\Checks\SpecificationFactory\AdditionalChecks
+ * @covers \Smaex\AdditionalPaymentChecks\Plugin\WhitelistAdditionalChecks
  */
-class AdditionalChecksTest extends \PHPUnit\Framework\TestCase
+class WhitelistAdditionalChecksTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var MockObject|SpecificationFactory
@@ -26,7 +26,7 @@ class AdditionalChecksTest extends \PHPUnit\Framework\TestCase
      */
     public function testBeforeCreate(array $checksOriginal, array $checksAdditional, array $checksComposite): void
     {
-        $instance = new AdditionalChecks($checksAdditional);
+        $instance = new WhitelistAdditionalChecks($checksAdditional);
 
         $this->assertSame(
             [

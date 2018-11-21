@@ -4,7 +4,7 @@
     <!-- Types -->
 
     <type name="Magento\Payment\Model\Checks\SpecificationFactory">
-        <plugin name="smaexAdditionalChecks" type="Smaex\AdditionalPaymentChecks\Plugin\Payment\Model\Checks\SpecificationFactory\AdditionalChecks"/>
+        <plugin name="smaex_whitelist_additional_checks" type="Smaex\AdditionalPaymentChecks\Plugin\WhitelistAdditionalChecks"/>
     </type>
 
 </config>

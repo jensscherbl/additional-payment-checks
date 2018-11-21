@@ -103,17 +103,17 @@ The extension plugs into the factory’s `create`-method and extends the list of
     <type name="Magento\Payment\Model\Checks\SpecificationFactory">
         <arguments>
             <argument name="mapping" xsi:type="array">
-                <item name="customPaymentMethodCheck" xsi:type="object">
+                <item name="acme_custom_payment_method_check" xsi:type="object">
                     Acme\Payment\Model\Checks\CustomPaymentMethodCheck
                 </item>
             </argument>
         </arguments>
     </type>
-    <type name="Smaex\AdditionalPaymentChecks\Plugin\Payment\Model\Checks\SpecificationFactory\AdditionalChecks">
+    <type name="Smaex\AdditionalPaymentChecks\Plugin\WhitelistAdditionalChecks">
         <arguments>
             <argument name="additionalChecks" xsi:type="array">
-                <item name="customPaymentMethodCheck" xsi:type="string">
-                    customPaymentMethodCheck
+                <item name="acme_custom_payment_method_check" xsi:type="string">
+                    acme_custom_payment_method_check
                 </item>
             </argument>
         </arguments>
