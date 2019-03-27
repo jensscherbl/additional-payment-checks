@@ -128,11 +128,11 @@ For a real-life example, check out [smaex/customer-group-payments][8] as well.
 Wanna work for [one of Germany’s leading Magento partners][9]? With agile methods, small teams and big clients? We’re currently looking for experienced ~~masochists~~ **PHP & Magento developers in Munich**. Sounds interesting? Just drop me a line via j.scherbl@techdivision.com
 
 [1]: https://github.com/magento/magento2
-[2]: https://github.com/magento/magento2/blob/2.2/app/code/Magento/Payment/Model/Checks/SpecificationInterface.php
-[3]: https://github.com/magento/magento2/blob/2.2/app/code/Magento/Payment/Model/Checks/Composite.php
-[4]: https://github.com/magento/magento2/blob/2.2/app/code/Magento/Payment/Model/Checks/SpecificationFactory.php
-[5]: https://github.com/magento/magento2/blob/2.2/app/code/Magento/Payment/Model/MethodList.php
+[2]: https://github.com/magento/magento2/blob/2.3/app/code/Magento/Payment/Model/Checks/SpecificationInterface.php
+[3]: https://github.com/magento/magento2/blob/2.3/app/code/Magento/Payment/Model/Checks/Composite.php
+[4]: https://github.com/magento/magento2/blob/2.3/app/code/Magento/Payment/Model/Checks/SpecificationFactory.php
+[5]: https://github.com/magento/magento2/blob/2.3/app/code/Magento/Payment/Model/MethodList.php
 [6]: https://getcomposer.org
-[7]: https://devdocs.magento.com/guides/v2.2/install-gde/install/cli/install-cli-subcommands-enable.html
+[7]: https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-enable.html
 [8]: https://github.com/smaex/customer-group-payments
 [9]: https://www.techdivision.com/karriere/offene-stellen/magento-developer-m-w.html
